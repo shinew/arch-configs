@@ -15,7 +15,7 @@ BLUE="\[$(tput setaf 4)\]"
 RESET="\[$(tput sgr0)\]"
 PS1="[\u@\h ${BLUE}\w${RESET}]\n\$ "
 
-# Setup vi edit mode
+# Set vi edit mode
 set -o vi
 
 # Prefer vim editor
