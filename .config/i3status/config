@@ -34,8 +34,8 @@ wireless _first_ {
 
 battery all {
         format = "%status %percentage (%remaining)"
-        low_threshold = 10
         threshold_type = time
+        low_threshold = 10
         integer_battery_capacity = true
         status_chr = "⚡"
         status_bat = "🔋"
@@ -46,6 +46,8 @@ battery all {
 
 disk "/" {
         format = "💿 %avail"
+        threshold_type = "gbytes_avail"
+        low_threshold = 30
 }
 
 load {
