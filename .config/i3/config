@@ -199,3 +199,4 @@ bindsym XF86Favorites exec --no-startup-id toggle-keyboard-brightness
 # Custom programs
 bindsym $mod+Shift+Return exec firefox
 bindsym $mod+Shift+backslash exec emacs
+bindsym $mod+Shift+Delete exec i3lock
