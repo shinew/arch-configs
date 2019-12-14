@@ -1,10 +1,23 @@
 syntax on
-set ignorecase
-set smartcase
-set number
-set wrap
-set colorcolumn=80
+
+set autoindent
+set backspace=indent,eol,start
+set cursorline
 set expandtab
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set hlsearch
+set ignorecase
+set incsearch
+set nojoinspaces
+set number
+set shiftround
+set shiftwidth=2
+set showmatch
+set smartcase
+set smarttab
+set softtabstop=2
+set tabstop=2
+set whichwrap+=<,>,h,l,[,]
+set wrap
+
+" Create a new tab
+nmap tn :tabnew<CR>
