@@ -4,6 +4,7 @@
 alias ls='ls --color=auto'
 alias ll='ls --color=auto -haltr'
 alias htopu='htop --user=shine'
+alias gpush='git commit -a --allow-empty-message "" && git push'
 
 function cdls {
     cd $1
