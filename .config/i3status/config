@@ -22,8 +22,8 @@ order += "volume master"
 order += "tztime local"
 
 wireless _first_ {
-        format_up = "📶%quality %essid"
-        format_down = "📶down"
+        format_up = "📶 %essid (%quality)"
+        format_down = "📶 down"
 }
 
 ethernet _first_ {
@@ -32,7 +32,7 @@ ethernet _first_ {
 }
 
 battery all {
-        format = "%status %percentage %remaining"
+        format = "%status %percentage (%remaining)"
         low_threshold = 10
         threshold_type = time
         integer_battery_capacity = true
