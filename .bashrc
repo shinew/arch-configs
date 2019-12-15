@@ -5,7 +5,7 @@ alias ls='ls --color=auto'
 alias ll='ls --color=auto -haltr'
 alias htopu='htop --user=shine'
 alias gpush='git add . && git commit -m "z" && git push'
-alias update_system='sudo pacman -Syu'
+alias update-arch-packages='sudo pacman -Syu'
 
 function cdls {
     cd $1
