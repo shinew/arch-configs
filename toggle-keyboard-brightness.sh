@@ -8,9 +8,6 @@ case "$BRIGHTNESS" in
   NEW_BRIGHTNESS=50
   ;;
 50)
-  NEW_BRIGHTNESS=100
-  ;;
-100)
   NEW_BRIGHTNESS=0
   ;;
 esac
