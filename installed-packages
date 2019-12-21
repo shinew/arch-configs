@@ -1,3 +1,4 @@
+acpid 2.0.32-1
 acpilight 1.2-1
 adobe-source-han-sans-otc-fonts 2.001-1
 adobe-source-han-serif-otc-fonts 1.001-2
@@ -9,7 +10,7 @@ base 2-2
 bc 1.07.1-3
 bind-tools 9.14.8-4
 binutils 2.33.1-2
-bison 3.4.2-2
+bison 3.5-1
 bluez-utils 5.52-1
 clang 9.0.0-3
 dhcpcd 8.1.2-1
@@ -21,7 +22,7 @@ fakeroot 1.24-2
 firefox 71.0-1
 fish 3.0.2-3
 flex 2.6.4-3
-fzf 0.19.0-1
+fzf 0.20.0-1
 gcc 9.2.0-4
 gdb 8.3.1-4
 gdm 3.34.1-1
@@ -29,6 +30,7 @@ git 2.24.1-2
 gnome-terminal 3.34.2-1
 gperftools 2.7-1
 htop 2.2.0-2
+hugo 0.61.0-1
 i3-gaps 4.17.1-1
 i3blocks 1.5-3
 i3lock 2.12-1
@@ -36,9 +38,9 @@ i3status 2.13-2
 intel-ucode 20191115-3
 interception-caps2esc 0.1.3-2
 interception-tools 0.1.1-7
-ipython 7.10.1-1
-linux 5.4.2.arch1-1
-linux-firmware 20191118.e8a0f4c-2
+ipython 7.10.2-1
+linux 5.4.5.arch1-1
+linux-firmware 20191215.eefb5f7-1
 lsof 4.93.2-1
 m4 1.4.18-3
 make 4.2.1-4
@@ -46,7 +48,7 @@ man-db 2.9.0-1
 man-pages 5.04-2
 ncdu 1.14.1-1
 network-manager-applet 1.8.24-1
-networkmanager 1.20.8-1
+networkmanager 1.22.0-1
 networkmanager-dispatcher-ntpd 1.0-7
 noto-fonts-emoji 20191016-1
 ntp 4.2.8.p13-2
@@ -57,6 +59,7 @@ perf 5.4-3
 picom 7.5-2
 pkgconf 1.6.3-3
 pulsemixer 1.5.0-2
+qbittorrent 4.2.0-1
 refind-efi 0.11.3-1
 ripgrep 11.0.2-1
 rsync 3.1.3-1
@@ -71,11 +74,12 @@ tmux 3.0_a-1
 tree 1.8.0-1
 ttf-dejavu 2.37-2
 vim 8.1.2268-2
-vulkan-intel 19.2.7-1
+vlc 3.0.8-7
+vulkan-intel 19.3.1-1
 which 2.21-5
-wireshark-qt 3.0.7-1
-xorg-server 1.20.6-1
-xorg-xdpyinfo 1.3.2-2
+wireshark-qt 3.2.0-1
+xorg-server 1.20.6-2
+xorg-xdpyinfo 1.3.2-3
 xorg-xev 1.2.3-1
 xorg-xinit 1.4.1-1
 xorg-xset 1.2.4-1
