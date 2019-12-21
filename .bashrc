@@ -6,6 +6,7 @@ alias ll='ls --color=auto -haltr'
 alias htopu='htop --user=shine'
 alias gpush='git add . && git commit -m "z" && git push'
 alias update-arch-packages='sudo pacman -Syu'
+alias start-vpn='sudo eddie-ui'
 
 function cdls {
     cd $1
