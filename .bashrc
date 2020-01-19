@@ -8,9 +8,11 @@ alias gpush='git add . && git commit -m "z" && git push'
 alias update-arch-packages='sudo pacman -Syu'
 alias start-vpn='sudo eddie-ui'
 
-function cdls {
-    cd $1
-    ls
+function update-emacs {
+  local CWD=$(pwd)
+  cd ~/.emacs.d
+  git pull
+  cd $CWD
 }
 
 # Setup PS1

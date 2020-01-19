@@ -185,7 +185,10 @@ bar {
 exec --no-startup-id picom
 
 # Reduce keyboard delay
-exec --no-startup-id xset r rate 250 30
+exec --no-startup-id xset r rate 300 30
+
+# Disable Escape key
+exec --no-startup-id xmodmap /home/shine/.config/xmodmap/caps-to-esc
 
 # Increase screen DPI
 exec --no-startup-id xrandr --dpi 144
