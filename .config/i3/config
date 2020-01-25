@@ -200,9 +200,10 @@ bindsym XF86Favorites exec --no-startup-id toggle-keyboard-brightness
 
 # Launch custom programs mode
 mode "program launcher" {
-  bindsym t exec i3-sensible-terminal
-  bindsym f exec firefox
   bindsym e exec emacs
+  bindsym f exec firefox
+  bindsym t exec i3-sensible-terminal
+  bindsym z exec zathura
   bindsym Escape mode "default"
   bindsym Return mode "default"
 }
