@@ -41,8 +41,6 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
-bindsym $mod+d mode "program launcher"
-
 # kill focused window
 bindsym $mod+Shift+q kill
 
@@ -197,6 +195,8 @@ exec --no-startup-id xrandr --dpi 144
 bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10
 bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 10
 bindsym XF86Favorites exec --no-startup-id toggle-keyboard-brightness
+
+bindsym $mod+backslash mode "program launcher"
 
 # Launch custom programs mode
 mode "program launcher" {
