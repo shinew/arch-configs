@@ -42,7 +42,7 @@ This function should only modify configuration layer settings."
      better-defaults
      emacs-lisp
      git
-     ranger
+     ;; ranger
      ;; helm
      ivy
      ;; lsp
@@ -55,7 +55,7 @@ This function should only modify configuration layer settings."
      spell-checking
      semantic
      syntax-checking
-     treemacs
+     ;; treemacs
      version-control
      (c-c++ :variables
             c-c++-default-mode-for-headers 'c++-mode
