@@ -12,7 +12,13 @@ function update-emacs {
   local CWD=$(pwd)
   cd ~/.emacs.d
   git pull
+  emacs --batch -l ~/.emacs.d/init.el --eval="(configuration-layer/update-packages t)"
   cd $CWD
+}
+
+function update-all {
+  update-arch-packages
+  update-emacs
 }
 
 # Setup PS1

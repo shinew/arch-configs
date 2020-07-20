@@ -176,6 +176,7 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status
+        position top
 }
 
 # Start compositor
@@ -189,6 +190,9 @@ exec --no-startup-id xmodmap /home/shine/.config/xmodmap/caps-to-esc
 
 # Increase screen DPI
 exec --no-startup-id xrandr --dpi 144
+
+# Increase screensaver period to 1h
+exec --no-startup-id xset s 3600 3600
 
 # Change display and keyboard brightnesses
 # This requires setting udev rules: [/etc/udev/rules.d/backlight.rules]
