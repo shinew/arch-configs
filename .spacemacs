@@ -62,9 +62,11 @@ This function should only modify configuration layer settings."
             c-c++-enable-clang-support t
             c-c++-enable-clang-format-on-save t)
      ;; ocaml
-     python
-     rust
      html
+     javascript
+     python
+     react
+     rust
      )
 
    ;; List of additional packages that will be installed without being
@@ -231,7 +233,7 @@ It should only modify the values of Spacemacs settings."
 
    ;; Default font or prioritized list of fonts.
    dotspacemacs-default-font '("Source Code Pro"
-                               :size 10.0
+                               :size 13.0
                                :weight normal
                                :width normal)
 

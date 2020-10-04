@@ -189,6 +189,7 @@ exec --no-startup-id xset r rate 300 30
 exec --no-startup-id xmodmap /home/shine/.config/xmodmap/caps-to-esc
 
 # Increase screen DPI
+exec --no-startup-id xrandr --dpi 144
 exec --no-startup-id xrdb ~/.Xresources
 
 # Increase screensaver period to 1h
@@ -203,7 +204,8 @@ bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10
 bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 10
 bindsym XF86Favorites exec --no-startup-id toggle-keyboard-brightness
 
-bindsym $mod+backslash mode "program launcher"
+# bindsym $mod+backslash mode "program launcher"
+bindsym $mod+p mode "program launcher"
 
 # Launch custom programs mode
 mode "program launcher" {
