@@ -13,12 +13,17 @@ function update-emacs {
   cd ~/.emacs.d
   git pull
   emacs --batch -l ~/.emacs.d/init.el --eval="(configuration-layer/update-packages t)"
-  cd $CWD
+  cd "$CWD"
+}
+
+function update-rust {
+  rustup update
 }
 
 function update-all {
   update-arch-packages
   update-emacs
+  update-rust
 }
 
 # Setup PS1

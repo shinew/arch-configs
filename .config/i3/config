@@ -189,10 +189,13 @@ exec --no-startup-id xset r rate 300 30
 exec --no-startup-id xmodmap /home/shine/.config/xmodmap/caps-to-esc
 
 # Increase screen DPI
-exec --no-startup-id xrandr --dpi 144
+exec --no-startup-id xrdb ~/.Xresources
 
 # Increase screensaver period to 1h
 exec --no-startup-id xset s 3600 3600
+
+# Setup Thinkpad dock
+exec --no-startup-id dockd --daemon
 
 # Change display and keyboard brightnesses
 # This requires setting udev rules: [/etc/udev/rules.d/backlight.rules]
