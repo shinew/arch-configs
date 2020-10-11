@@ -4,7 +4,7 @@
 alias ls='ls --color=auto'
 alias ll='ls --color=auto -haltr'
 alias htopu='htop --user=shine'
-alias gpush='git commit -a -m "z" && git push'
+alias gpush='git add . && git commit -a -m "z" && git push'
 alias update-arch-packages='sudo pacman -Syu'
 alias start-vpn='sudo eddie-ui'
 
