@@ -213,10 +213,11 @@ bindsym $mod+p mode "program launcher"
 
 # Launch custom programs mode
 mode "program launcher" {
+  bindsym Escape mode "default"
+  bindsym Return mode "default"
+  bindsym c exec code
   bindsym e exec emacs
   bindsym f exec firefox
   bindsym t exec i3-sensible-terminal
   bindsym z exec zathura
-  bindsym Escape mode "default"
-  bindsym Return mode "default"
 }
