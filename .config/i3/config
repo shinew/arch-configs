@@ -184,7 +184,7 @@ bar {
 }
 
 # Start compositor
-exec --no-startup-id picom
+exec --no-startup-id picom --experimental-backend
 
 # Reduce keyboard delay
 exec --no-startup-id xset r rate 300 30

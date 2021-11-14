@@ -20,10 +20,18 @@ function update-rust {
   rustup update
 }
 
+function update-vscode {
+  cd /tmp
+  git clone https://aur.archlinux.org/visual-studio-code-bin.git
+  cd visual-studio-code-bin
+  makepkg -si
+}
+
 function update-all {
   update-arch-packages
   update-emacs
   update-rust
+  update-vscode
 }
 
 # Setup PS1
